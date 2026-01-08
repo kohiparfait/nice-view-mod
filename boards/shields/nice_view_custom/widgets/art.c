@@ -228,13 +228,13 @@ const lv_img_dsc_t mountain = {
     .data = mountain_map,
 
 };
-
-#ifndef LV_ATTRIBUTE_IMG_STARDEW WALLPAPER-1
-#define LV_ATTRIBUTE_IMG_STARDEW WALLPAPER-1
+    
+#ifndef LV_ATTRIBUTE_IMG_STARDEW_WALLPAPER_1
+#define LV_ATTRIBUTE_IMG_STARDEW_WALLPAPER_1
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_STARDEW WALLPAPER-1 uint8_t 
-    Stardew wallpaper-1_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_STARDEW_WALLPAPER_1 uint8_t 
+    Stardew_wallpaper_1_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -242,7 +242,6 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_STARDEW W
         0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
         0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #endif
-    
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf8, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf8, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf8, 
@@ -385,12 +384,14 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_STARDEW W
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf8, 
 };
 
-const lv_img_dsc_t Stardew wallpaper-1 = {
+const lv_img_dsc_t Stardew_wallpaper_1 = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 85,
   .header.h = 140,
   .data_size = 1540,
-  .data = Stardew wallpaper-1_map,
+  .data = Stardew_wallpaper_1_map,
 };
+
+
